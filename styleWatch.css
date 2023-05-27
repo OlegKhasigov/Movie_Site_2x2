@@ -1,0 +1,384 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+body{
+	margin: 0px;
+	background: black;
+}
+
+/* Header */
+
+header {
+	margin: 10px calc(30px + (30 - 10) * ((100vw - 500px) / (1920 - 500)));
+	border-bottom: 2px solid white;
+}
+
+header .container{
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo img{
+	width: calc(100px + (100 - 80) * ((100vw - 500px) / (1920 - 500)));
+	height: auto; 
+}
+
+header .login img{
+	width: calc(25px + (25 - 10) * ((100vw - 500px) / (1920 - 500)));
+	height: auto; 
+}
+
+header h{
+	color: white;
+	font-size: 14px;
+}
+
+header ol{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+header li{
+	padding:0px 20px;
+}
+
+
+/* Footer */
+
+footer{
+	margin: 10px calc(30px + (30 - 10) * ((100vw - 500px) / (1920 - 500)));
+	border-top: 2px solid white;	
+}
+
+footer .container{
+	margin: 20px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer .logo img{
+	width: calc(100px + (100 - 80) * ((100vw - 500px) / (1920 - 500)));
+	height: auto; 
+}
+
+footer .webs img{
+	width: calc(25px + (25 - 10) * ((100vw - 500px) / (1920 - 500)));
+	height: auto; 
+}
+
+footer h, p{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+footer .line1 {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+footer .line1 li{
+	padding: 0px 20px;
+}
+
+footer .line2 {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+footer .line2 li{
+	padding: 0px 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.btn_back {
+	border-radius: 10px;
+	padding: 3px 5px;
+}
+
+.btn_back:hover{
+	background: white;
+	transition: 0.7s;
+}
+
+.btn_back:hover h{
+	color: black;
+	transition: 0.7s;
+}
+
+/*Content*/
+content {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0px;
+	
+}
+
+content .back{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("бегущий.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back2{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("Стражи галактики.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back3{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("Тупой и еще тупее.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back4{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("Не смотри наверх.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back5{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("Милые кости.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back6{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("Безумный Макс.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back7{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("toys.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back8{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("cars.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back9{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("panda.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back10{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("cruds2.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back11{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("sing.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back12{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("dream.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back13{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("ход королевы.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back14{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("во все тяжкие.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back15{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("венсдей.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back16{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("бумажный дом.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back17{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("острые козырьки.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+content .back18{
+	width: 800px;
+	height: 300px;
+	
+	border-radius: 10px; 
+	
+	background-image: url("Ходячие мертвецы.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	top:0px;
+}
+
+content .container{
+	width: 1100px;
+	height: 1250px;
+	
+	padding:0px 20px;
+	
+	display: flex;
+	justify-content: start;
+	align-items:center;
+	flex-direction:column;
+	
+	position:relative;
+	
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+content .name{
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+}
+
+content .text{
+	width: 1000px;
+	padding:60px 0px;
+}
+
+content .name p{
+	color: white;
+	font-family: ROBOTO;
+	font-size: 18px;
+	padding-bottom:10px;
+}
+
+content .text p{
+	color: white;
+	font-family: ROBOTO;
+	font-size: 16px;
+	text-align:justify;
+	text-indent:50px;
+}
+
+content .movie_info p{
+	text-align:left;
+	color: white;
+	font-family: ROBOTO;
+	font-size: 14px;
+	padding-bottom:3px;
+}
+
+content .movie_info{
+	width: 1000px;
+	padding-bottom: 50px;
+}
