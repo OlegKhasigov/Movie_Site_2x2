@@ -304,6 +304,11 @@ content .back16{
 	background-repeat: no-repeat;
 	top:0px;
 }
+content .video{
+	width: 800px;
+	height: 300px;
+	
+}
 content .back17{
 	width: 800px;
 	height: 300px;
